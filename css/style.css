@@ -1,0 +1,143 @@
+body {
+	background-color: #f1f1f1;
+}
+
+.wrap {
+	padding: 0 70px 0 70px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ion {
+	color: #fdddde;
+	font-size: 15px;
+	transition: 0.4s;
+}
+
+.top-bar-social .ion {
+	padding-right: 18px;
+}
+
+.ion i:hover {
+	color: #ffffff;	
+}
+
+h5{
+	color: #fdddde;
+	transition: 0.4s;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 400;
+	letter-spacing: 0.8px;
+}
+
+.top-bar {
+	background-color: #ed1c24;
+}
+
+.top-bar-social{
+	display: flex;
+	flex-direction: row;
+	padding: 15px 0 15px 0;
+}
+
+.top-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.institucional h5:hover{
+	color: #fff;
+}
+
+.institucional,
+.institucional ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.institucional li {
+	margin-left: 16px;
+}
+
+.institucional {
+	align-items: center;
+}
+
+.top-bar-login {
+	margin-left: 16px;
+	border-left: 1px solid rgba(255,255,255,0.6);
+}
+
+.top-bar-login .ion {
+	margin-right: 4px;
+	font-size: 13px;
+}
+
+.login-fix{
+	display: flex;
+	flex-direction: row;
+}
+
+.menu {
+	background-color: #fff;
+}
+
+.menu-itens {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	padding: 20px 0 20px 0 ;
+}
+
+.menu-nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.menu-nav ul {
+	margin: 10px 0 0 40px;
+}
+
+.menu-nav ul:after {
+	padding-bottom: 10px;
+	display: block;
+	content: '';
+	border-bottom: 2px solid #ed1c24;
+	transform: scaleX(0);
+	transition: 0.15s ease-in-out;
+}
+
+.menu-nav ul:hover:after {
+	transform: scaleX(1);
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: #959595;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
